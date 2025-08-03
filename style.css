@@ -10,3 +10,11 @@
 section {
   padding-top: 5rem;
 }
+
+.social-icon {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+.social-icon:hover {
+  transform: scale(1.2);
+  color: #0dcaf0 !important; /* Biru muda */
+}
